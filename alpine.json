@@ -1,0 +1,15 @@
+{
+  "name": "nmunir/alpine",
+  "description": "Custom Alpine Linux latest stable box",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "providers": [
+        {
+          "name": "virtualbox",
+          "url": "https://github.com/NomanMunir/vagrant-boxes/releases/download/alpine-v1.0.0/alpine-latest.box"
+        }
+      ]
+    }
+  ]
+}
