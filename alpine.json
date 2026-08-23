@@ -1,6 +1,6 @@
 {
   "name": "nmunir/alpine",
-  "description": "Custom Alpine Linux latest stable box",
+  "description": "Multi-provider Alpine Linux latest stable box (VirtualBox & Libvirt KVM)",
   "versions": [
     {
       "version": "1.0.0",
@@ -8,6 +8,10 @@
         {
           "name": "virtualbox",
           "url": "https://github.com/NomanMunir/vagrant-boxes/releases/download/alpine-v1.0.0/alpine-latest.box"
+        },
+        {
+          "name": "libvirt",
+          "url": "https://github.com/NomanMunir/vagrant-boxes/releases/download/alpine-v1.0.0/alpine-latest-libvirt.box"
         }
       ]
     }
